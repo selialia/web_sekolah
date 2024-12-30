@@ -1,11 +1,15 @@
 <template>
+  <!-- Logo Section -->
+  <div class="text-center mt-4">
+  <h3 style="color: black; text-align: center; margin: 0px;">SELAMAT DATANG DI SMK PUSAT KEUNGGULAN SMKN 4 TASIKMALAYA</h3>
+  </div>
   <div class="container-fluid">
     <div class="row my-5">
       
       <div class="col-lg-12 mb-5">
-          <div class="crounded-5">
-            <img src="~/assets/img/4.jpg" alt="gambar" style="width: 80%; height: 80%;"/>
-          </div>
+        <div class="crounded-5">
+          <img src="~/assets/img/skul.png" alt="gambar" style="width: 100%; height: 500px;" />
+        </div>
       </div>
 
       <!-- Sambutan Kepala Sekolah -->
@@ -43,14 +47,12 @@
   max-width: 10000px; /* Responsif untuk lebar kartu */
   padding-left: 100px; /* Tambah jarak kiri */
   padding-right: 100px; /* Tambah jarak kanan */
-
 }
 /* Styling Sambutan */
 .sambutan {
   background-color: #f9f9f9;
   box-shadow: 1px 1px 10px #dadada;
   padding: 20px;
-  
 }
 
 .sambutan-content {

@@ -15,9 +15,9 @@
       <!-- Kartu Galeri 2 -->
       <div class="col-6 col-md-4" data-bs-toggle="modal" data-bs-target="#lightbox2">
         <div class="card">
-          <img src="~assets/img/g1.jpg" class="card-img-top" alt="Prestasi 1" />
+          <img src="~assets/img/skill.jpg" class="card-img-top" alt="Prestasi 1" />
           <div class="card-body text-center">
-            <p class="card-text">Upacara Hari Guru</p>
+            <p class="card-text">Skill Competition 2024</p>
           </div>
         </div>
       </div>
@@ -25,9 +25,9 @@
       <!-- Kartu Galeri 3 -->
       <div class="col-6 col-md-4" data-bs-toggle="modal" data-bs-target="#lightbox3">
         <div class="card">
-          <img src="~assets/img/g1.jpg" class="card-img-top" alt="Fasilitas Baru" />
+          <img src="~assets/img/edufair.jpg" class="card-img-top" alt="Fasilitas Baru" />
           <div class="card-body text-center">
-            <p class="card-text">Fasilitas Baru</p>
+            <p class="card-text">Edu Fair 2024</p>
           </div>
         </div>
       </div>
@@ -38,8 +38,8 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="~assets/img/g1.jpg" class="img-fluid" alt="Kegiatan 1" />
-            <p class="mt-2 text-center">Kegiatan 1</p>
+            <img src="~assets/img/jobfair.jpg" class="img-fluid" alt="Kegiatan 4" />
+            <p class="mt-2 text-center">Job Fair 2024</p>
           </div>
         </div>
       </div>

@@ -1,165 +1,78 @@
 <template>
   <div class="container">
-    <h2 class="text-center mb-4">Daftar Ekstrakurikuler</h2>
+    <h1>Daftar Ekstrakurikuler Sekolah</h1>
     
-    <div class="row">
-      <!-- Kolom Ekstrakurikuler -->
-      <div
-        class="col" 
-        v-for="ekstra in ekstrakurikuler" 
-        :key="ekstra.id"
-      >
-        <div class="card">
-          <img :src="ekstra.gambar" class="card-img-top" :alt="ekstra.nama" />
-          <div class="card-body">
-            <h5 class="card-title">{{ ekstra.nama }}</h5>
-            <p class="card-text">{{ ekstra.deskripsi }}</p>
-            <a :href="ekstra.link" class="btn btn-primary">Lihat Detail</a>
-          </div>
-        </div>
-      </div>
+    <!-- Ekstrakurikuler 1 -->
+    <div class="extracurricular-item">
+      <h2>Paskibra</h2>
+      <p>Deskripsi: Paskibra, singkatan dari Pasukan Pengibar Bendera, adalah kelompok atau tim khusus yang bertugas untuk mengibarkan atau menurunkan bendera nasional dalam upacara resmi, terutama pada Hari Kemerdekaan dan upacara kenegaraan..</p>
+      <img src="~/assets/img/paskib.jpg" alt="gambar" style="width: 50%; height: 300px;" />
     </div>
+
+    <!-- Ekstrakurikuler 2 -->
+    <div class="extracurricular-item">
+      <h2>Pramuka</h2>
+      <p>Deskripsi: Pramuka adalah singkatan dari Praja Muda Karana, yang berarti "Generasi Muda yang Suka Bekerja." Pramuka adalah organisasi kepanduan yang bertujuan membentuk karakter, keterampilan, dan kepemimpinan bagi generasi mudam.</p>
+      <img src="~/assets/img/pramuka.jpg" alt="gambar" style="width: 50%; height: 300px;" />
+    </div>
+
+    <!-- Ekstrakurikuler 3 -->
+    <div class="extracurricular-item">
+      <h2>Futsal</h2>
+      <p>Deskripsi:Futsal adalah bentuk permainan sepak bola yang dimainkan di lapangan lebih kecil dan sering kali dilakukan di dalam ruangan. Futsal terkenal dengan permainan cepat, keterampilan teknis, dan pengendalian bola yang lebih intensif dibandingkan sepak bola tradisional..</p>
+      <img src="~/assets/img/futsal.jpg" alt="gambar" style="width: 50%; height: 300px;" />
+    </div>
+
+    <!-- Ekstrakurikuler 4 -->
+    <div class="extracurricular-item">
+      <h2>Seni</h2>
+      <p>Deskripsi: Ekstrakurikuler musik, mulai dari vokal hingga alat musik.</p>
+      <img src="~/assets/img/logo.png" alt="gambar" style="width: 50%; height: 300px;" />
+    </div>
+
+    <!-- Ekstrakurikuler 4 -->
+    <div class="extracurricular-item">
+      <h2>Cinematografi</h2>
+      <p>Deskripsi: Sinematografi adalah seni dan teknik merekam visual dalam bentuk gambar bergerak, baik untuk film, televisi, video, maupun media lainnya. Dalam sinematografi, aspek teknis dan artistik digabungkan untuk menciptakan gambar yang mendukung narasi, emosi, dan pengalaman penonton.</p>
+      <img src="~/assets/img/cj.jpg" alt="gambar" style="width: 50%; height: 300px;" />
+    </div>
+
+
+
   </div>
 </template>
 
 <script>
 export default {
-  data() {
-    return {
-      ekstrakurikuler: [
-        {
-          id: 1,
-          nama: 'Basket',
-          gambar: '~/assets/img/basket.jpg', 
-          deskripsi: 'Ekstrakurikuler olahraga Basket untuk meningkatkan keterampilan bermain bola basket.',
-          link: '/ekstrakurikuler/basket'
-        },
-        {
-          id: 2,
-          nama: 'Paduan Suara',
-          gambar: '~/assets/img/paduan-suara.jpg',
-          deskripsi: 'Ekstrakurikuler menyanyi bersama dalam kelompok untuk mempererat tali persaudaraan.',
-          link: '/ekstrakurikuler/paduan-suara'
-        },
-        {
-          id: 3,
-          nama: 'Futsal',
-          gambar: '~/assets/img/futsal.jpg',
-          deskripsi: 'Futsal adalah olahraga bola kecil yang dimainkan secara tim di lapangan mini.',
-          link: '/ekstrakurikuler/futsal'
-        },
-        {
-          id: 4,
-          nama: 'Paskibra',
-          gambar: '~/assets/img/pencak-silat.jpg',
-          deskripsi: 'Belajar seni bela diri tradisional Indonesia.',
-          link: '/ekstrakurikuler/pencak-silat'
-        },
-        {
-          id: 5,
-          nama: 'Fotografi',
-          gambar: '~/assets/img/cj.jpg',
-          deskripsi: 'Mengembangkan kemampuan fotografi dan berkreasi dengan kamera.',
-          link: '/ekstrakurikuler/fotografi'
-        },
-        {
-          id: 3,
-          nama: 'Futsal',
-          gambar: '~/assets/img/futsal.jpg',
-          deskripsi: 'Futsal adalah olahraga bola kecil yang dimainkan secara tim di lapangan mini.',
-          link: '/ekstrakurikuler/futsal'
-        },
-        {
-          id: 4,
-          nama: 'Pencak Silat',
-          gambar: '~/assets/img/pencak-silat.jpg',
-          deskripsi: 'Belajar seni bela diri tradisional Indonesia.',
-          link: '/ekstrakurikuler/pencak-silat'
-        },
-        {
-          id: 5,
-          nama: 'Fotografi',
-          gambar: '~/assets/img/cj.jpg',
-          deskripsi: 'Mengembangkan kemampuan fotografi dan berkreasi dengan kamera.',
-          link: '/ekstrakurikuler/fotografi'
-        },
-      ]
-    }
-  }
-}
+  name: 'HomePage',
+};
 </script>
 
 <style scoped>
 .container {
-  max-width: 1200px;
-  margin: auto;
+  max-width: 800px;
+  margin: 0 auto;
   padding: 20px;
 }
 
-h2 {
-  font-size: 2rem;
-  color: #424242;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.col {
-  flex: 1 0 21%; /* Responsif: 4 kolom di desktop */
-  min-width: 250px;
+h1 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.card {
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.card img {
-  max-height: 200px;
-  object-fit: cover;
-  width: 100%;
-}
-
-.card-body {
+.extracurricular-item {
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
   padding: 15px;
+  border-radius: 8px;
 }
 
-.card-title {
-  font-size: 1.25rem;
-  color: #333;
-  margin-bottom: 10px;
+.extracurricular-item h2 {
+  color: #2c3e50;
 }
 
-.card-text {
-  font-size: 1rem;
-  color: #555;
-  margin-bottom: 15px;
-}
-
-.btn {
-  font-size: 1rem;
-  padding: 8px 20px;
-}
-
-/* Responsivitas */
-@media (max-width: 768px) {
-  .row {
-    justify-content: center;
-  }
-
-  .col {
-    flex: 1 0 45%; /* 2 kolom di layar kecil */
-  }
-}
-
-@media (max-width: 480px) {
-  .col {
-    flex: 1 0 100%; /* 1 kolom penuh pada layar ekstra kecil */
-  }
+.extracurricular-item p {
+  color: #34495e;
+  font-size: 14px;
 }
 </style>

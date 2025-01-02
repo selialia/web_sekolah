@@ -33,12 +33,12 @@
       </div>
     </div>
 
-    <!-- Modal Galeri 1 -->
+
     <div class="modal fade" id="lightbox1" tabindex="-1" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-body">
-            <img src="~assets/img/jobfair.jpg" class="img-fluid" alt="Kegiatan 4" />
+                <img src="~assets/img/jobfair.jpg" class="img-fluid" alt="Kegiatan 4" />
             <p class="mt-2 text-center">Job Fair 2024</p>
           </div>
         </div>

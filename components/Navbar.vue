@@ -11,6 +11,8 @@
       <li><NuxtLink to="./jurusan">JURUSAN</NuxtLink></li>
       <li><NuxtLink to="./ekskul">EKSTRAKULIKULER</NuxtLink></li>
       <li><NuxtLink to="/galeri">GALERI</NuxtLink></li>
+      <li><NuxtLink to="/berita">BERITA</NuxtLink></li>
+
     </ul>
   </nav>
 </div>

@@ -9,6 +9,7 @@
       <div class="col-lg-12 mb-5">
         <div class="crounded-5">
           <img src="~/assets/img/skul.png" alt="gambar" style="width: 100%; height: 500px;" />
+
         </div>
       </div>
 
